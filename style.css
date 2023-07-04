@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(background.png);
+}
+
+.nav{
+    display: flex;
+    margin: 10px 3vw;
+}
+#logo_div{
+    flex: 1;
+}
+#text_nav_div{
+    flex: 1;
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+#nav_logo{
+    width:10vw;
+    height: 15vh;
+}
+.extra{
+    flex: 5;
+}
+#home_nav{
+    flex: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1vw;
+
+}
+#project_nav{
+    flex: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1vw;
+
+}
+#blog_nav{
+    flex: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1vw;
+
+}
+#marketplace_nav{
+    flex: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1vw;
+
+
+}
+#event_nav{
+    flex: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: right;
+    font-size: 1vw;
+}
+.content_first{
+    display: flex;
+}
+
+#img_content{
+    flex: 1;
+}
+#home_page_img{
+    width: 50vw;
+    height: 80vh;
+}   
+#sub_title{
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
+#text_content1{
+    margin-right: 4.5vw;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-right: 4vw;
+    margin-top: 20vh;
+}
+#title{
+    color: #fcff00;
+    font-size: 3vw;
+    font-weight: 800;
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+}
+#sec_page_app_futures{
+    display: flex;
+}
+#sec_page_text{
+    flex: 1;
+    margin-left: 5vw;
+}
+.twitter-tweet{
+    flex: 1;
+    margin-right: 5vw;
+}
+#sec_sub_title{
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
