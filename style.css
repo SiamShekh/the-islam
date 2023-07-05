@@ -136,17 +136,27 @@ li{
     padding-left: 5px;
     padding-right: 5px;
     margin: 0;
+    display: flex;
     border-top-right-radius: 20px;
 }
 
 #project_body{
     background-color: #FFFFFF;
     border-radius: 20px;
+    display: block;
 }
+#haeder_img{
+    flex: 0.2;
+    
+}
+.div_project_header_text{
+    flex: 0.8;
+}
+
 .project_title{
     margin: 0;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-top: 10%;
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
@@ -154,7 +164,7 @@ li{
 .project_subtitle{
     margin: 0;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
 }
