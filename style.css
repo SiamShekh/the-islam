@@ -1,12 +1,14 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(background.png);
+    background-image: url(image/background.png);
 }
 
 .nav{
     display: flex;
     margin: 10px 3vw;
+    justify-content: space-around;
+    height: 10vh;
 }
 #logo_div{
     flex: 1;
@@ -64,6 +66,9 @@ body{
 }
 .content_first{
     display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #img_content{
@@ -104,73 +109,43 @@ body{
     background-color: #102648;
     border-radius: 20px;
     padding: 5vw;
+    justify-content: space-around;
 }
+.haeder_img{
+    width: 50%;
+}
+.pro_img{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+ .project_text{
+    /* display: flex;
+    justify-content: space-around; */
+    height: 50%;
 
-li{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-    margin: 0;
-    padding-left: 2vw;
-}
+} 
 
 #project{
     flex: 1;
     display: block;
-    background-color: #fff;
+    background-color: #073882;
     border-radius: 20px;
-    margin: 0;
+    margin: 1vw;
 }
-
-#project2{
-    flex: 1;
-    background-color: #fff;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    border-radius: 20px;
+.project_title{
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
-
-#project_header{
-    height: 30%;
-    background-color: #0444B3;
-    border-top-left-radius: 20px;
+.project_des{
+    color: #dccfcf;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 0;
-    display: flex;
-    border-top-right-radius: 20px;
 }
 
-#project_body{
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    display: block;
-}
-#haeder_img{
-    flex: 0.2;
-    
-}
-.div_project_header_text{
-    flex: 0.8;
-}
-
-.project_title{
-    margin: 0;
-    text-align: center;
-    font-size: 1.5vw;
-    padding-top: 10%;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFF;
-}
-.project_subtitle{
-    margin: 0;
-    text-align: center;
-    font-size: 0.8vw;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFF;
-}
-.project_des_title{
-    margin: 5%;
-    font-size: 1.5vw;
-    font-family: 'Montserrat', sans-serif;
-    color: #000;
-}
