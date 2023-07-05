@@ -149,3 +149,13 @@ body{
     padding-right: 5px;
 }
 
+#sec_page_title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #073882;
+    font-size: 30px;
+}
+#sec_100vh{
+    height: 80vh;
+}
